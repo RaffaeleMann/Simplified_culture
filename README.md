@@ -1,7 +1,7 @@
 # Diritto alla cultura e disabilità cognitiva
 ## L'IA generativa può supportare la comunicazione in ambito culturale?
  
-> Dataset and results repository for the paper submitted to [AItLA 2025 - XXV Congresso Internazionale dell'Associazione Italiana di Linguistica Applicata "La semplificazione linguistica 
+> Dataset and results repository for the paper submitted to AItLA 2025 - XXV Congresso Internazionale dell'Associazione Italiana di Linguistica Applicata "La semplificazione linguistica 
 per la comunicazione: tecnologie in contesto" - Università di Macerata (Italy), 19-21 febbraio 2025.
 
 ## Overview
