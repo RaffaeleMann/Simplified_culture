@@ -47,7 +47,7 @@ Le metriche quantitative sono calcolate con metodi computazionali e consentono d
 ---
 
 
-## Criteri di annotazione qualitativa
+## Annotazione qualitativa
  
 La valutazione qualitativa è stata condotta manualmente da due linguisti esperti in modo indipendente. Per ciascun output è stato espresso un giudizio binario (`y` = presente / `n` = assente) sulla base degli 8 criteri seguenti, selezionati a partire dalla letteratura scientifica di riferimento e da linee guida istituzionali per la comunicazione accessibile.
  
