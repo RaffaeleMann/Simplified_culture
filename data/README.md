@@ -8,11 +8,11 @@ Questa cartella contiene gli output grezzi prodotti dai due modelli del linguagg
  
 | File | Modello | Consegna |
 |---|---|---|
-| `claude_P1.tsv` | Claude Sonnet 3.5 | P1 |
-| `claude_P2.tsv` | Claude Sonnet 3.5 | P2 |
-| `claude_P3.tsv` | Claude Sonnet 3.5 | P3 |
-| `chatgpt_P1.tsv` | ChatGPT-4 | P1 |
-| `chatgpt_P2.tsv` | ChatGPT-4 | P2 |
-| `chatgpt_P3.tsv` | ChatGPT-4 | P3 |
+| `Claude_Sonnet_P1.tsv` | Claude Sonnet 3.5 | P1 |
+| `Claude_Sonnet_P2.tsv` | Claude Sonnet 3.5 | P2 |
+| `Claude_Sonnet_P3.tsv` | Claude Sonnet 3.5 | P3 |
+| `ChatGPT_P1.tsv` | ChatGPT-4 | P1 |
+| `ChatGPT_P2.tsv` | ChatGPT-4 | P2 |
+| `ChatGPT_P3.tsv` | ChatGPT-4 | P3 |
  
 Ciascun file contiene **200 righe** (una per testo del corpus) più la riga di intestazione.
