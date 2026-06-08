@@ -34,7 +34,7 @@ Ciascuna descrizione è rappresentativa di un registro formale e specialistico c
 ### Prompt
 Sono state utilizzate tre consegne zero-shot, progettate con un livello di specificità crescente:
  
-| ID | Descrizione |
+| Prompt | Descrizione |
 |---|---|
 | **P1** | Semplifica per persone con disabilità cognitive queste descrizioni tecniche |
 | **P2** | Per ogni descrizione tecnica, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo |
