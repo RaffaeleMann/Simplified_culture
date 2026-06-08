@@ -40,35 +40,8 @@ Sono state utilizzate tre prompt zero-shot, progettate con un livello di specifi
 | **P2** | Per ogni descrizione tecnica, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo |
 | **P3** | Per ogni descrizione tecnica del dominio dei beni culturali, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo mantenendo tutte le informazioni |
  
-Output totali: **1.200 risposte** (600 per modello × 3 consegne × 200 testi).
 
- 
-## Accordo tra annotatori (IAA)
- 
-| Criterio | Accordo/Totale | % di accordo | κ di Cohen |
-|---|---|---|---|
-| TT | 102/120 | 85,00% | 0,70 |
-| SEM | 46/46 | 100,00% | 1,00 |
-| SOE | 112/120 | 93,33% | 0,87 |
-| FNO | 116/120 | 97,50% | 0,95 |
-| FSE | 117/120 | 96,67% | 0,76 |
-| SIG | 120/120 | 100,00% | 1,00 |
-| EFI | 120/120 | 100,00% | 1,00 |
-| PAR | 8/8 | 100,00% | 1,00 |
-| **Totale** | **741/774** | **96,56%** | **0,91** |
- 
----
 
- 
-## Formato dei dati
- 
-Tutti i file CSV utilizzano la codifica **UTF-8**, il punto e virgola (`;`) come delimitatore e includono una riga di intestazione. I valori di annotazione sono binari (`y` = presente, `n` = assente).
- 
-Esempio di colonne nei file annotati:
-```
-text_id; modello; consegna; criterio_TT; criterio_SEM; criterio_SOE; ...
-```
- 
 ---
  
 ## Licenza
@@ -86,3 +59,5 @@ Il dataset e i file di annotazione presenti in questo repository sono rilasciati
 ## Citazione
  
 Se utilizzi questo dataset o questi risultati nella tua ricerca, cita il contributo come segue:
+
+Speranza, G., Di Buono, M. P., & Manna, R. (in press). Diritto alla cultura e  disabilità cognitiva. L'IA generativa può supportare la comunicazione in ambito  culturale? In *Atti del XXV Congresso Internazionale AItLA "La semplificazione linguistica per la comunicazione: tecnologie in contesto"*. Università di Macerata, 19-21 febbraio 2025.
