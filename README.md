@@ -1,106 +1,111 @@
 # Diritto alla cultura e disabilità cognitiva
 ## L'IA generativa può supportare la comunicazione in ambito culturale?
  
-> Dataset and results repository for the paper submitted to AItLA 2025 - XXV Congresso Internazionale dell'Associazione Italiana di Linguistica Applicata "La semplificazione linguistica 
-per la comunicazione: tecnologie in contesto" - Università di Macerata (Italy), 19-21 febbraio 2025.
-
-## Overview
-
-This repository contains the dataset and evaluation results from a study investigating whether large language models (LLMs) can support accessible communication in cultural heritage contexts. 
-Specifically, the study tests whether Claude Sonnet 3.5 and ChatGPT-4 can simplify technical catalogue descriptions for people with cognitive disabilities, using zero-shot prompting in Italian.
-The study combines quantitative linguistic measures (readability, syntactic complexity, lexical variety) with a qualitative manual annotation by two expert linguists, achieving an overall inter-annotator agreement of 96.56% (Cohen's κ = 0.91).
+> Repository del dataset e dei risultati del contributo presentato ad AItLA 2025 - XXV Congresso Internazionale dell'Associazione Italiana di Linguistica Applicata *"La semplificazione linguistica per la comunicazione: tecnologie in contesto"* - Università di Macerata (Italia), 19-21 febbraio 2025.
+ 
+---
+ 
+## Panoramica
+ 
+Questo repository contiene il dataset e i risultati della valutazione di uno studio che indaga se i modelli del linguaggio di grandi dimensioni (LLM) possano supportare la comunicazione accessibile in ambito culturale.
+Lo studio testa in particolare la capacità di **Claude Sonnet 3.5** e **ChatGPT-4** di semplificare descrizioni tecniche di catalogo per persone con disabilità cognitive, mediante zero-shot prompting in lingua italiana.
+Lo studio combina misure linguistiche **quantitative** (leggibilità, complessità sintattica, varietà lessicale) con un'**annotazione manuale qualitativa** condotta da due linguisti esperti, raggiungendo un accordo complessivo tra annotatori del 96,56% (κ di Cohen = 0,91).
+ 
+---
  
 ## Corpus
  
-The corpus consists of **200 technical descriptions in Italian** (~7,741 words total), drawn from open-access catalogue records (*schede di catalogo*) of the **Catalogo Generale dei Beni Culturali** of the Italian Ministry of Culture (MiC), covering various categories of cultural heritage objects.
+Il corpus è composto da **200 descrizioni tecniche in lingua italiana** (circa 7.741 parole in totale), tratte dalle schede di catalogo in formato aperto del **Catalogo Generale dei Beni Culturali** del Ministero della Cultura (MiC), relative a diverse tipologie di beni culturali.
  
-Each description is representative of a formal, specialised register characterised by:
-- complex subordinate and implicit syntactic constructions (participles, gerunds)
-- domain-specific technical vocabulary (e.g., *a mezzo busto*, *croce astile*)
-- figurative language and dense information packaging
+Ciascuna descrizione è rappresentativa di un registro formale e specialistico caratterizzato da:
+- costruzioni sintattiche subordinate e implicite complesse (participi, gerundi)
+- lessico tecnico di dominio (es. *a mezzo busto*, *croce astile*)
+- linguaggio figurato e alta densità informativa
 ---
-## Methodology
  
-### Models tested
-| Model | Developer |
+## Metodologia
+ 
+### Modelli testati
+| Modello | Sviluppatore |
 |---|---|
 | Claude Sonnet 3.5 | Anthropic |
 | ChatGPT-4 | OpenAI |
  
-### Prompts
-Three zero-shot prompts were used, designed with increasing specificity:
+### Prompt
+Sono state utilizzate tre consegne zero-shot, progettate con un livello di specificità crescente:
  
-| ID | Description |
+| ID | Descrizione |
 |---|---|
-| **P1** | Specifies only the target audience (people with cognitive disabilities) |
-| **P2** | Adds the intended use context (informational panel in a museum) |
-| **P3** | Further specifies the domain (cultural heritage) and adds a completeness constraint (*mantenendo tutte le informazioni*) |
+| **P1** | Semplifica per persone con disabilità cognitive queste descrizioni tecniche |
+| **P2** | Per ogni descrizione tecnica, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo |
+| **P3** | Per ogni descrizione tecnica del dominio dei beni culturali, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo mantenendo tutte le informazioni |
  
-Total outputs: **1,200 outputs** (600 per model × 3 prompts × 200 texts).
+Output totali: **1.200 risposte** (600 per modello × 3 consegne × 200 testi).
  
-### Quantitative metrics
-- **Gulpease Index** – Italian readability score
-- **Sentence count and average sentence length**
-- **Active voice verbs** – proxy for syntactic simplicity
-- **Type/Token Ratio (TTR)** – lexical variety
-- **NVdB coverage** – proportion of words from De Mauro's *Nuovo Vocabolario di Base*
-
-### Qualitative annotation criteria
-Two linguists independently annotated outputs on 8 binary criteria:
+### Metriche quantitative
+- **Indice di Gulpease** – misura della leggibilità per l'italiano
+- **Numero di frasi e lunghezza media delle frasi**
+- **Verbi con diatesi attiva** – indicatore della semplicità sintattica
+- **Type/Token Ratio (TTR)** – varietà lessicale
+- **Copertura NVdB** – proporzione di parole presenti nel *Nuovo Vocabolario di Base* di De Mauro
+### Criteri di annotazione qualitativa
+Due linguisti hanno annotato in modo indipendente gli output sulla base di 8 criteri binari:
  
-| Code | Criterion |
+| Codice | Criterio |
 |---|---|
-| TT | Use of technical terms |
-| SEM | Presence of simplifications |
-| SOE | Explicit subject present |
-| FNO | Nominal sentences |
-| FSE | Simple sentences |
-| SIG | Acronyms or abbreviations |
-| EFI | Figurative expressions |
-| PAR | Use of paraphrase |
+| TT | Uso di termini tecnici |
+| SEM | Presenza di semplificazioni |
+| SOE | Soggetto esplicito presente |
+| FNO | Frasi nominali |
+| FSE | Frasi semplici |
+| SIG | Sigle o abbreviazioni |
+| EFI | Espressioni figurate |
+| PAR | Uso di parafrasi |
  
-Inter-annotator agreement was computed on a balanced 10% pilot sample (120 responses) before full annotation.
- ---
+L'accordo tra annotatori è stato calcolato su un campione pilota bilanciato pari al 10% del totale (120 risposte) prima di procedere all'annotazione completa.
  
-## Inter-Annotator Agreement (IAA)
+---
  
-| Criterion | Agreement/Total | % Agreement | Cohen's κ |
+## Accordo tra annotatori (IAA)
+ 
+| Criterio | Accordo/Totale | % di accordo | κ di Cohen |
 |---|---|---|---|
-| TT | 102/120 | 85.00% | 0.70 |
-| SEM | 46/46 | 100.00% | 1.00 |
-| SOE | 112/120 | 93.33% | 0.87 |
-| FNO | 116/120 | 97.50% | 0.95 |
-| FSE | 117/120 | 96.67% | 0.76 |
-| SIG | 120/120 | 100.00% | 1.00 |
-| EFI | 120/120 | 100.00% | 1.00 |
-| PAR | 8/8 | 100.00% | 1.00 |
-| **Total** | **741/774** | **96.56%** | **0.91** |
+| TT | 102/120 | 85,00% | 0,70 |
+| SEM | 46/46 | 100,00% | 1,00 |
+| SOE | 112/120 | 93,33% | 0,87 |
+| FNO | 116/120 | 97,50% | 0,95 |
+| FSE | 117/120 | 96,67% | 0,76 |
+| SIG | 120/120 | 100,00% | 1,00 |
+| EFI | 120/120 | 100,00% | 1,00 |
+| PAR | 8/8 | 100,00% | 1,00 |
+| **Totale** | **741/774** | **96,56%** | **0,91** |
  
 ---
+
  
-## Data Format
+## Formato dei dati
  
-All CSV files use **UTF-8 encoding**, semicolon (`;`) as delimiter, and include a header row. Annotation values are binary (`y` = present, `n` = absent).
+Tutti i file CSV utilizzano la codifica **UTF-8**, il punto e virgola (`;`) come delimitatore e includono una riga di intestazione. I valori di annotazione sono binari (`y` = presente, `n` = assente).
  
-Example columns in annotated files:
+Esempio di colonne nei file annotati:
 ```
-text_id; model; prompt; criterion_TT; criterion_SEM; criterion_SOE; ...
+text_id; modello; consegna; criterio_TT; criterio_SEM; criterio_SOE; ...
 ```
  
 ---
  
-## License
+## Licenza
  
-The dataset and annotation files in this repository are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+Il dataset e i file di annotazione presenti in questo repository sono rilasciati con licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
  
-You are free to share and adapt the material for any purpose, provided appropriate credit is given, a link to the license is provided, and any changes are indicated.
+È possibile condividere e adattare liberamente il materiale per qualsiasi scopo, a condizione di attribuire adeguata paternità, fornire un collegamento alla licenza e indicare eventuali modifiche apportate.
  
-📄 [CC BY 4.0 full license text](https://creativecommons.org/licenses/by/4.0/)
+📄 [Testo completo della licenza CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)
  
-> The source catalogue records are drawn from the **Catalogo Generale dei Beni Culturali (MiC)**, available in open access. Please refer to the original source for their specific terms of use.
+> Le schede di catalogo di origine sono tratte dal **Catalogo Generale dei Beni Culturali (MiC)**, disponibile in formato aperto. Per le condizioni d'uso specifiche della fonte originale, si rimanda al sito istituzionale del MiC.
  
 ---
  
-## Citation
+## Citazione
  
-If you use this dataset or results in your research, please cite:
+Se utilizzi questo dataset o questi risultati nella tua ricerca, cita il contributo come segue:
