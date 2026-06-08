@@ -41,30 +41,7 @@ Sono state utilizzate tre prompt zero-shot, progettate con un livello di specifi
 | **P3** | Per ogni descrizione tecnica del dominio dei beni culturali, dammi in output una descrizione semplificata per persone con disabilità cognitive da inserire in un pannello informativo in un museo mantenendo tutte le informazioni |
  
 Output totali: **1.200 risposte** (600 per modello × 3 consegne × 200 testi).
- 
-### Metriche quantitative
-- **Indice di Gulpease** – misura della leggibilità per l'italiano
-- **Numero di frasi e lunghezza media delle frasi**
-- **Verbi con diatesi attiva** – indicatore della semplicità sintattica
-- **Type/Token Ratio (TTR)** – varietà lessicale
-- **Copertura NVdB** – proporzione di parole presenti nel *Nuovo Vocabolario di Base* di De Mauro
-### Criteri di annotazione qualitativa
-Due linguisti hanno annotato in modo indipendente gli output sulla base di 8 criteri binari:
- 
-| Codice | Criterio |
-|---|---|
-| TT | Uso di termini tecnici |
-| SEM | Presenza di semplificazioni |
-| SOE | Soggetto esplicito presente |
-| FNO | Frasi nominali |
-| FSE | Frasi semplici |
-| SIG | Sigle o abbreviazioni |
-| EFI | Espressioni figurate |
-| PAR | Uso di parafrasi |
- 
-L'accordo tra annotatori è stato calcolato su un campione pilota bilanciato pari al 10% del totale (120 risposte) prima di procedere all'annotazione completa.
- 
----
+
  
 ## Accordo tra annotatori (IAA)
  
