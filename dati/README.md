@@ -6,7 +6,7 @@ Questa cartella contiene gli output grezzi prodotti dai due modelli del linguagg
  
 ## Contenuto della cartella
  
-| File | Modello | Consegna |
+| File | Modello | Prompt |
 |---|---|---|
 | `Claude_Sonnet_P1.tsv` | Claude Sonnet 3.5 | P1 |
 | `Claude_Sonnet_P2.tsv` | Claude Sonnet 3.5 | P2 |
