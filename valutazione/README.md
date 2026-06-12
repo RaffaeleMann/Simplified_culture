@@ -6,21 +6,19 @@ Questa cartella contiene i risultati della valutazione degli output prodotti dai
  
 ## Contenuto della cartella
  
-| File | Descrizione |
-|---|---|
-| `Metriche_quantitative.Tsv` | Valori delle metriche computazionali per ciascun prompt |
-| `P1_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
-| `P2_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
-| `P3_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
-| `P1_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
-| `P2_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
-| `P3_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| Tipologia | File | Descrizione |
+|---|---|---|
+|Quantitativa|`Metriche_quantitative.Tsv` | Valori delle metriche computazionali per ciascun prompt |
+|Qualitativa|`P1_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+|Qualitativa |`P2_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+|Qualitativa |`P3_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+|Qualitativa |`P1_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+|Qualitativa |`P2_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+|Qualitativa |`P3_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
  
 ---
  
- 
-
-## Metriche quantitative
+ ## Metriche quantitative
  
 Le metriche quantitative sono calcolate con metodi computazionali e consentono di misurare in modo oggettivo e riproducibile le prestazioni dei modelli in termini di leggibilità, complessità sintattica e varietà lessicale.
  
