@@ -25,12 +25,13 @@ Ciascuna descrizione è rappresentativa di un registro formale e specialistico c
  
 ## Metodologia
  
-### Modelli testati in data 
+### Modelli  
 | Modello | Sviluppatore |
 |---|---|
 | Claude Sonnet 3.5 | Anthropic |
 | ChatGPT-4 | OpenAI |
- 
+
+> Modelli testati in data 07/01/2025
 ### Prompt
 Sono state utilizzate tre prompt zero-shot, progettate con un livello di specificità crescente:
  
