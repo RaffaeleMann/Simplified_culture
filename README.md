@@ -8,7 +8,7 @@
 ## Panoramica
  
 Questo repository contiene il dataset e i risultati della valutazione di uno studio che indaga se i modelli del linguaggio di grandi dimensioni (LLM) possano supportare la comunicazione accessibile in ambito culturale.
-Lo studio testa in particolare la capacità di **Claude Sonnet 3.5** e **ChatGPT-4** di semplificare descrizioni tecniche di beni cultirali per persone con disabilità cognitive, mediante zero-shot prompting in lingua italiana.
+Lo studio testa in particolare la capacità di **Claude Sonnet 3.5** e **ChatGPT-4** di semplificare descrizioni tecniche di beni culturali per persone con disabilità cognitive, mediante zero-shot prompting in lingua italiana.
 Lo valutazione  combina misure linguistiche **quantitative** (leggibilità, complessità sintattica, varietà lessicale) con un'**annotazione manuale qualitativa** condotta da due linguisti esperti, raggiungendo un accordo complessivo tra annotatori del 96,56% (κ di Cohen = 0,91).
  
 ---
@@ -23,12 +23,12 @@ Ciascuna descrizione è rappresentativa di un registro formale e specialistico c
 - costruzioni sintattiche subordinate e implicite complesse (participi, gerundi, passivi)
 - terminologia di dominio (es. *a mezzo busto*, *croce astile*)
 - linguaggio figurato e alta densità informativa (soffocato dallo sporco)
----
 
 **Esempio di descrizione tecnica proveniente dal corpus:**
  
 > Il dipinto raffigura un santo apostolo, a mezzo busto, con un libro in mano e tenente sotto il braccio una croce astile. La figura è barbuta e torce il collo, voltandosi all'indietro e rivolgendo lo sguardo verso l'alto. I colori sono mantenuti in tonalità piuttosto basse e soffocati dallo sporco.
- 
+--- 
+
 ## Metodologia
  
 ### Modelli  
