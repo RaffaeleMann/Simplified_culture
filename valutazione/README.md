@@ -8,33 +8,18 @@ Questa cartella contiene i risultati della valutazione degli output prodotti dai
  
 | File | Descrizione |
 |---|---|
-| `metriche_quantitative.csv` | Valori delle metriche computazionali per ciascun output |
-| `annotazione_qualitativa.csv` | Giudizi binari degli annotatori per ciascun output |
+| `Metriche_quantitative.Tsv` | Valori delle metriche computazionali per ciascun prompt |
+| `P1_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| `P2_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| `P3_Claude_Sonnet_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| `P1_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| `P2_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
+| `P3_ChatGPT_annotazione_qualitativa.tsv` | Giudizi binari degli annotatori su 8 criteri per ciascun output |
  
 ---
  
-## Formato dei file
  
-Tutti i file CSV utilizzano la codifica **UTF-8** e il punto e virgola (`;`) come delimitatore. I nomi delle colonne sono indicati di seguito; aggiornare questa sezione una volta definita la struttura definitiva dei file.
- 
-### `metriche_quantitative.csv`
- 
-| Colonna | Descrizione |
-|---|---|
-| `text_id` | Identificatore univoco del testo originale |
-| `modello` | Modello utilizzato (`claude` / `chatgpt`) |
-| `prompt` | Consegna utilizzata (`P1` / `P2` / `P3`) |
-| `gulpease` | Valore dell'Indice di Gulpease |
-| `n_frasi` | Numero di frasi nel testo semplificato |
-| `lung_media_frasi` | Lunghezza media delle frasi (in parole) |
-| `verbi_attivi` | Numero di verbi con diatesi attiva |
-| `ttr` | Type/Token Ratio |
-| `copertura_nvdb` | Proporzione di parole presenti nel NVdB (valore tra 0 e 1) |
- 
-> ⚠️ *Struttura provvisoria — aggiornare i nomi delle colonne prima della pubblicazione.*
- 
- ---
- 
+
 ## Metriche quantitative
  
 Le metriche quantitative sono calcolate con metodi computazionali e consentono di misurare in modo oggettivo e riproducibile le prestazioni dei modelli in termini di leggibilità, complessità sintattica e varietà lessicale.
@@ -49,9 +34,9 @@ Le metriche quantitative sono calcolate con metodi computazionali e consentono d
 
 ## Annotazione qualitativa
  
-La valutazione qualitativa è stata condotta manualmente da due linguisti esperti in modo indipendente. Per ciascun output è stato espresso un giudizio binario (`y` = presente / `n` = assente) sulla base degli 8 criteri seguenti, selezionati a partire dalla letteratura scientifica di riferimento e da linee guida istituzionali per la comunicazione accessibile.
+La valutazione qualitativa è stata condotta manualmente da due linguisti esperti in modo indipendente. Per ciascun output è stato espresso un giudizio binario (`y` = presente / `n` = assente, `na` = non applicabile) sulla base dei seguenti criteri, selezionati a partire dalla letteratura scientifica di riferimento e da linee guida istituzionali per la comunicazione accessibile.
  
-| Codice | Criterio | Descrizione |
+| Acronimo | Criterio | Descrizione |
 |---|---|---|
 | **TT** | Uso di termini tecnici | Presenza di lessico specialistico non appartenente al vocabolario di base |
 | **SEM** | Presenza di semplificazioni | Il testo presenta interventi espliciti di semplificazione rispetto all'originale |
@@ -62,27 +47,12 @@ La valutazione qualitativa è stata condotta manualmente da due linguisti espert
 | **EFI** | Espressioni figurate | Presenza di metafore, metonimie o altre figure retoriche di difficile interpretazione |
 | **PAR** | Uso di parafrasi | Il modello riformula esplicitamente un termine o un concetto tecnico con parole più semplici |
 
-### `annotazione_qualitativa.csv`
- 
-| Colonna | Descrizione |
-|---|---|
-| `text_id` | Identificatore univoco del testo originale |
-| `modello` | Modello utilizzato (`claude` / `chatgpt`) |
-| `prompt` | Consegna utilizzata (`P1` / `P2` / `P3`) |
-| `TT` | Uso di termini tecnici (`y` / `n`) |
-| `SEM` | Presenza di semplificazioni (`y` / `n`) |
-| `SOE` | Soggetto esplicito presente (`y` / `n`) |
-| `FNO` | Frasi nominali (`y` / `n`) |
-| `FSE` | Frasi semplici (`y` / `n`) |
-| `SIG` | Sigle o abbreviazioni (`y` / `n`) |
-| `EFI` | Espressioni figurate (`y` / `n`) |
-| `PAR` | Uso di parafrasi (`y` / `n`) |
- 
-> ⚠️ *Struttura provvisoria — aggiornare i nomi delle colonne prima della pubblicazione.*
   
 ### Accordo tra annotatori (IAA)
  
-Prima di procedere all'annotazione completa dei 1.200 output, è stata effettuata un'annotazione di prova su un campione pilota bilanciato pari al **10% del totale (120 risposte)**, selezionate in modo equilibrato tra modelli e consegne. Il livello di accordo è misurato tramite la **percentuale di accordo** e la **kappa di Cohen (κ)**.
+Prima di procedere all'annotazione completa dei 1.200 output, è stata effettuata un'annotazione di prova su un campione pilota bilanciato pari al **10% del totale (120 risposte)**, selezionate in modo equilibrato tra modelli e consegne. 
+
+Il livello di accordo è misurato tramite la **percentuale di accordo** e la **kappa di Cohen (κ)**.
  
 | Criterio | Accordo/Totale | % di accordo | κ di Cohen |
 |---|---|---|---|
