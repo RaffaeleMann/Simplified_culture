@@ -6,7 +6,7 @@ I risultati totali corrispondono a **1.200 output** (600 per ciascun modello × 
  
 ---
  
-## Valutazione quantitativa
+## Risultati Valutazione Metriche quantitative
  
 Le metriche quantitative sono calcolate con metodi computazionali e misurano in modo oggettivo leggibilità, complessità sintattica e varietà lessicale degli output, confrontandoli con i testi originali del corpus.
  
@@ -23,7 +23,7 @@ Le metriche quantitative sono calcolate con metodi computazionali e misurano in 
  
 ---
  
-## Valutazione qualitativa
+## Risultati Annotazione Qualitativa
  
 La valutazione qualitativa è stata condotta da due linguisti esperti che hanno annotato in modo indipendente gli output sulla base di 8 criteri binari, selezionati a partire dalla letteratura scientifica di riferimento e da linee guida istituzionali per la comunicazione accessibile. I valori riportati indicano il numero di testi (su 200) in cui il criterio risulta presente, con la percentuale corrispondente.
  
