@@ -1,6 +1,6 @@
 # Dataset grezzo — Output dei modelli per prompt
  
-Questa cartella contiene gli output grezzi prodotti dai due modelli del linguaggio (**Claude Sonnet 3.5** e **ChatGPT-4**) per ciascuna delle tre consegne (**P1**, **P2**, **P3**) utilizzate nello studio, senza alcuna annotazione aggiuntiva.
+Questa cartella contiene i dati originali e gli output grezzi prodotti dai due modelli del linguaggio (**Claude Sonnet 3.5** e **ChatGPT-4**) per ciascuna delle tre consegne (**P1**, **P2**, **P3**) utilizzate nello studio, senza alcuna annotazione aggiuntiva.
  
 ---
  
