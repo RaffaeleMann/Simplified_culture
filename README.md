@@ -8,20 +8,26 @@
 ## Panoramica
  
 Questo repository contiene il dataset e i risultati della valutazione di uno studio che indaga se i modelli del linguaggio di grandi dimensioni (LLM) possano supportare la comunicazione accessibile in ambito culturale.
-Lo studio testa in particolare la capacità di **Claude Sonnet 3.5** e **ChatGPT-4** di semplificare descrizioni tecniche di catalogo per persone con disabilità cognitive, mediante zero-shot prompting in lingua italiana.
-Lo studio combina misure linguistiche **quantitative** (leggibilità, complessità sintattica, varietà lessicale) con un'**annotazione manuale qualitativa** condotta da due linguisti esperti, raggiungendo un accordo complessivo tra annotatori del 96,56% (κ di Cohen = 0,91).
+Lo studio testa in particolare la capacità di **Claude Sonnet 3.5** e **ChatGPT-4** di semplificare descrizioni tecniche di beni cultirali per persone con disabilità cognitive, mediante zero-shot prompting in lingua italiana.
+Lo valutazione  combina misure linguistiche **quantitative** (leggibilità, complessità sintattica, varietà lessicale) con un'**annotazione manuale qualitativa** condotta da due linguisti esperti, raggiungendo un accordo complessivo tra annotatori del 96,56% (κ di Cohen = 0,91).
  
 ---
  
 ## Corpus
  
 Il corpus è composto da **200 descrizioni tecniche in lingua italiana** (circa 7.741 parole in totale), tratte dalle schede di catalogo in formato aperto del **Catalogo Generale dei Beni Culturali** del Ministero della Cultura (MiC), relative a diverse tipologie di beni culturali.
+
+Il dipinto raffigura un santo apostolo, a mezzo busto, con un libro in mano e tenente sotto il braccio una croce astile. La figura è barbuta e torce il collo, voltandosi all'indietro e rivolgendo lo sguardo verso l'alto. I colori sono mantenuti in tonalità piuttosto basse e soffocati dallo sporco.
  
 Ciascuna descrizione è rappresentativa di un registro formale e specialistico caratterizzato da:
-- costruzioni sintattiche subordinate e implicite complesse (participi, gerundi)
-- lessico tecnico di dominio (es. *a mezzo busto*, *croce astile*)
-- linguaggio figurato e alta densità informativa
+- costruzioni sintattiche subordinate e implicite complesse (participi, gerundi, passivi)
+- terminologia di dominio (es. *a mezzo busto*, *croce astile*)
+- linguaggio figurato e alta densità informativa (soffocato dallo sporco)
 ---
+
+**Esempio di descrizione tecnica proveniente dal corpus:**
+ 
+> Il dipinto raffigura un santo apostolo, a mezzo busto, con un libro in mano e tenente sotto il braccio una croce astile. La figura è barbuta e torce il collo, voltandosi all'indietro e rivolgendo lo sguardo verso l'alto. I colori sono mantenuti in tonalità piuttosto basse e soffocati dallo sporco.
  
 ## Metodologia
  
@@ -33,7 +39,7 @@ Ciascuna descrizione è rappresentativa di un registro formale e specialistico c
 
 > Modelli testati in data 07/01/2025
 ### Prompt
-Sono state utilizzate tre prompt zero-shot, progettate con un livello di specificità crescente:
+Sono stati utilizzati tre prompt zero-shot, progettati con un livello di specificità crescente:
  
 | Prompt | Descrizione |
 |---|---|
