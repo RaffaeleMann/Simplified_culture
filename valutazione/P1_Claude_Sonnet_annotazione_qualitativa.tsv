@@ -1,0 +1,201 @@
+Annotatore	ID	Claude_Sonnet_simplification_P1	Termini Tecnici (TT)	Semplificazioni (SEM)	Soggetto Esplicito (SOE)	Frasi Nominali (FNO)	Frasi semplici (FSE)	Sigle o abbreviazioni (SIG)	Espressioni figurate (EFI)	Parafrasi (PAR)
+A1	1	Lattiera bianca con disegno di uva e bordo verde. Ha un manico e un beccuccio.	y	n	n	y	n	n	n	na
+A1	2	Piccola scultura di un granchio e una creatura chiamata kappa.	y	n	n	y	n	n	n	na
+A1	3	Statua di un uomo con barba e capelli lunghi. Indossa una tunica e tiene un libro.	y	n	n	y	n	n	n	na
+A1	4	Statua di un uomo con tunica e cappello. Tiene un foglio e la sua veste.	y	na	n	y	n	n	n	na
+A1	5	Statua di un angelo con fiori. Il suo vestito sembra mosso dal vento.	n	na	n	y	y	n	n	na
+A1	6	Statua di David seduto. Ha una corona e suona l'arpa.	y	n	n	y	y	n	n	na
+A1	7	Statua di San Giorgio che uccide un drago con una lancia.	y	n	n	y	n	n	n	na
+A1	8	Statua di San Francesco che guarda in alto.	n	na	n	y	n	n	n	na
+A1	9	Statua di un santo che tiene un libro aperto.	n	na	n	y	n	n	n	na
+A1	10	Dipinto di un santo che scrive. Potrebbe essere San Giacomo.	n	na	n	y	y	n	n	na
+A1	11	Statua di un santo con un libro e un'arma lunga.	n	na	n	y	n	n	n	na
+A1	12	Dipinto di un santo che scrive e guarda in alto.	n	na	n	y	n	n	n	na
+A1	13	Dipinto poco chiaro di un santo.	n	na	n	y	y	n	n	na
+A1	14	Statua con pose teatrali ma in stile classico.	y	n	n	y	n	n	n	na
+A1	15	Dipinto di due santi in una stanza con colonne e paesaggio.	n	na	n	y	n	n	n	na
+A1	16	Dipinto di San Paolo e San Giovanni Battista in una stanza.	n	na	n	y	n	n	n	na
+A1	17	Dipinto di Gesù a mezzo busto con le mani sul petto.	y	n	n	y	n	n	n	na
+A1	18	Dipinto di un santo con barba, libro e croce. Guarda in alto.	n	na	n	y	n	n	n	na
+A1	19	Dipinto di San Simone che tiene una sega.	n	na	n	y	n	n	n	na
+A1	20	Dipinto di San Bartolomeo che mostra la sua pelle.	n	na	n	y	n	n	n	na
+A1	21	Dipinto della nascita di Gesù con Maria, Giuseppe e pastori.	n	na	n	y	n	n	n	na
+A1	22	Dipinto di Gesù bambino presentato al tempio.	n	na	n	y	n	n	n	na
+A1	23	Dipinto di Gesù con la corona di spine.	n	na	n	y	n	n	n	na
+A1	24	Dipinto di Gesù sulla croce con Maria, Giovanni e Maddalena.	n	na	n	y	n	n	n	na
+A1	25	Statua dorata di un evangelista con un angelo.	y	n	n	y	n	n	n	na
+A1	26	Statua dorata di un evangelista con un leone.	y	n	n	y	n	n	n	na
+A1	27	Dipinto di Gesù disteso sulla croce mentre gli inchiodano le mani.	n	na	n	y	n	n	n	na
+A1	28	Dipinto di Gesù crocifisso con Maria, Giovanni e Maddalena.	n	na	n	y	n	n	n	na
+A1	29	Dipinto di Gesù morto pianto da Maria e Giovanni.	n	na	n	y	n	n	n	na
+A1	30	Dipinto di Gesù che riceve la croce.	n	na	n	y	n	n	n	na
+A1	31	Dipinto di Gesù che incontra Maria mentre porta la croce.	n	na	n	y	n	n	n	na
+A1	32	Dipinto di Gesù che incontra Veronica mentre porta la croce.	n	na	n	y	n	n	n	na
+A1	33	Dipinto di Gesù che parla con delle donne mentre porta la croce.	n	na	n	y	n	n	n	na
+A1	34	Dipinto di Gesù che cade sotto il peso della croce.	n	na	n	y	n	n	n	na
+A1	35	Affresco della circoncisione di Gesù nel tempio.	y	n	n	y	y	n	n	na
+A1	36	Affresco di Maria seduta con Gesù bambino.	y	n	n	y	n	n	n	na
+A1	37	Affresco di due profeti con scritte.	y	n	n	y	n	n	n	na
+A1	38	Affresco della resurrezione di Gesù.	y	n	n	y	y	n	n	na
+A1	39	Affresco di Gesù che incontra Maria Maddalena.	y	n	n	y	n	n	n	na
+A1	40	Affresco dell'ascensione di Gesù.	y	n	n	y	y	n	n	na
+A1	41	Dipinto di un uomo di profilo con un foglio. Si chiama Daniele.	n	na	n	y	n	n	n	na
+A1	42	Dipinto di Gioacchino che lascia il tempio. C'è anche un pastore con un agnello.	n	na	n	y	n	n	n	na
+A1	43	Dipinto di un uomo con barba lunga e un foglio. Non si sa il suo nome.	n	na	n	y	n	n	n	na
+A1	44	Dipinto di un uomo barbuto con un foglio. Si chiama Mosè.	n	na	n	y	n	n	n	na
+A1	45	Dipinto di Gioacchino e Anna che si abbracciano. C'è anche un'altra donna.	n	na	n	y	n	n	n	na
+A1	46	Dipinto della nascita di Maria. Anna è a letto e altre donne si prendono cura della bambina.	n	na	n	y	n	n	n	na
+A1	47	Dipinto dell'angelo che annuncia a Maria che avrà un bambino.	n	na	n	y	n	n	n	na
+A1	48	Dipinto del matrimonio di Maria e Giuseppe.	n	na	n	y	y	n	n	na
+A1	49	Dipinto di Maria in cielo con gli apostoli e angeli che suonano.	y	n	n	y	n	n	n	na
+A1	50	Dipinto di due angeli che tengono un contenitore speciale.	n	na	n	y	n	n	n	na
+A1	51	Dipinto di San Giovanni giovane con un libro.	n	na	n	y	n	n	n	na
+A1	52	Dipinto di San Matteo più vecchio con un libro.	n	na	n	y	n	n	n	na
+A1	53	Dipinto di Gesù che cade mentre porta la croce.	n	na	n	y	n	n	n	na
+A1	54	Dipinto degli apostoli che guardano Gesù salire in cielo.	y	n	n	y	n	n	n	na
+A1	55	Dipinto di Maria incoronata da Gesù e Dio.	n	na	n	y	n	n	n	na
+A1	56	Dipinto di Maria ed Elisabetta che si abbracciano, con Zaccaria e Giuseppe.	n	na	n	y	n	n	n	na
+A1	57	Dipinto della nascita di Gesù con Maria, Giuseppe e un angelo.	n	na	n	y	n	n	n	na
+A1	58	Dipinto di Gesù a cui mettono la corona di spine.	n	na	n	y	n	n	n	na
+A1	59	Dipinto di Giovanni Battista in prigione e Gesù che appare a due persone.	n	na	n	y	n	n	n	na
+A1	60	Dipinto di Giovanni Battista che prega in un bosco.	n	na	n	y	n	n	n	na
+A1	61	Porta di un tabernacolo con un contenitore speciale su nuvole.	y	n	n	y	n	n	n	na
+A1	62	Scultura dell'angelo che annuncia a Maria che avrà un bambino.	n	na	n	y	n	n	n	na
+A1	63	Scultura di Gesù sulla croce con Maria e Giovanni.	n	na	n	y	n	n	n	na
+A1	64	Scultura di Gesù che risorge dalla tomba.	n	na	n	y	n	n	n	na
+A1	65	Scultura di Maria e gli apostoli che ricevono lo Spirito Santo.	y	na	n	y	n	n	n	na
+A1	66	Scultura di Maria incoronata da Gesù e Dio.	n	na	n	y	n	n	n	na
+A1	67	Scultura della nascita di Gesù con pastori.	n	na	n	y	n	n	n	na
+A1	68	Scultura di Maria che porta Gesù al tempio.	n	na	n	y	n	n	n	na
+A1	69	Scultura di Gesù frustato dai soldati.	n	na	n	y	n	n	n	na
+A1	70	Scultura di Gesù che prega mentre gli apostoli dormono.	n	na	n	y	n	n	n	na
+A1	71	Scultura di Gesù a cui mettono la corona di spine.	n	na	n	y	n	n	n	na
+A1	72	Veste rossa con immagini di santi.	n	na	n	y	n	n	n	na
+A1	73	Dipinto di Gesù che parla con i dottori nel tempio.	n	na	n	y	n	n	n	na
+A1	74	Dipinto di Gesù frustato dai soldati.	n	na	n	y	n	n	n	na
+A1	75	Tabernacolo con sculture dell'annuncio a Maria.	y	n	n	y	n	n	n	na
+A1	76	Tabernacolo con scultura di Gesù sulla croce e angeli.	y	n	n	y	n	n	n	na
+A1	77	Dipinto di Sant'Antonio che benedice i poveri.	n	na	n	y	n	n	n	na
+A1	78	Dipinto di Maria che appare a Sant'Antonio.	n	na	n	y	n	n	n	na
+A1	79	Dipinto di Sant'Antonio che mostra l'ostia a un asino.	y	n	n	y	n	n	n	na
+A1	80	Dipinto di Sant'Antonio che parla ai pesci.	n	na	n	y	n	n	n	na
+A1	81	Dipinto di Maria con Gesù bambino in braccio.	n	na	n	y	n	n	n	na
+A1	82	Dipinto di Gesù sulla croce con Maria, Giovanni e altri personaggi.	n	na	n	y	n	n	n	na
+A1	83	Statua di San Giacomo con bastone e mantello rosso.	n	na	n	y	n	n	n	na
+A1	84	Statua di un santo con mantello verde e un libro.	n	na	n	y	n	n	n	na
+A1	85	Dipinto di Gesù a cui tolgono la tunica prima della crocifissione.	y	n	n	y	n	n	n	na
+A1	86	Dipinto della deposizione di Gesù dalla croce.	y	n	n	y	n	n	n	na
+A1	87	Dipinto di Gesù deposto nel sepolcro.	y	n	n	y	n	n	n	na
+A1	88	Dipinto di Gesù che riceve la croce.	n	na	n	y	n	n	n	na
+A1	89	Dipinto di Gesù che cade sotto il peso della croce.	n	na	n	y	n	n	n	na
+A1	90	Dipinto di Gesù che porta la croce aiutato da Simone di Cirene.	n	na	n	y	n	n	n	na
+A1	91	Dipinto di Gesù che incontra la Veronica.	n	na	n	y	n	n	n	na
+A1	92	Dipinto di Gesù caduto sotto la croce, circondato da soldati.	n	na	n	y	n	n	n	na
+A1	93	Dipinto di Gesù davanti a Pilato.	n	na	n	y	n	n	n	na
+A1	94	Dipinto di Gesù a cui tolgono la tunica.	y	n	n	y	n	n	n	na
+A1	95	Dipinto della deposizione di Gesù dalla croce.	n	na	n	y	y	n	n	na
+A1	96	Dipinto di Gesù che incontra sua madre mentre porta la croce.	n	na	n	y	n	n	n	na
+A1	97	Dipinto di Gesù caduto sotto la croce in città.	n	na	n	y	n	n	n	na
+A1	98	Dipinto della deposizione di Gesù nel sepolcro.	n	na	n	y	y	n	n	na
+A1	99	Statua di San Domenico con abito bianco e nero e un libro.	n	na	n	y	n	n	n	na
+A2	100	Affresco di due santi inginocchiati e due in piedi.	y	n	n	y	n	n	n	na
+A2	101	Affresco di quattro santi: Chiara, Caterina, Francesco e Domenico.	y	n	n	y	y	n	n	na
+A2	102	Affresco di quattro sante, tra cui Margherita d'Antiochia e Agata.	y	n	n	y	n	n	n	na
+A2	103	Affresco dell'incoronazione di Maria con santi.	y	n	n	y	y	n	n	na
+A2	104	Affresco di due santi che adorano la Sacra Sindone.	y	n	n	y	n	n	n	na
+A2	105	Affresco di quattro santi, tra cui Lorenzo e Sebastiano.	y	n	n	y	n	n	n	na
+A2	106	Affresco di quattro santi, tra cui Maria Maddalena e Rocco.	y	n	n	y	n	n	n	na
+A2	107	Affresco di quattro sante.	y	n	n	y	y	n	n	na
+A2	108	Dipinto con figura dal mantello svolazzante.	n	na	n	y	n	n	n	na
+A2	109	Dipinto con figure dall'espressione rigida.	n	na	n	y	n	n	n	na
+A2	110	Dipinto del primo mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	111	Dipinto del decimo mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	112	Dipinto del tredicesimo mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	113	Dipinto del secondo mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	114	Dipinto del quinto mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	115	Dipinto del sesto mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	116	Dipinto dell'ottavo mistero del rosario.	n	na	n	y	y	n	y	n 
+A2	117	Quattro busti dorati per contenere reliquie.	y	n	n	y	n	n	n	na
+A2	118	Dipinto di una scena biblica con colori verdi.	n	na	n	y	n	n	n	na
+A2	119	Dipinto di Salomè con la testa di Giovanni Battista.	n	na	n	y	n	n	n	na
+A2	120	Dipinto di Sant'Antonio Abate e Sant'Agostino che pregano.	n	na	n	y	n	n	n	na
+A2	121	Dipinto di soldati che uccidono bambini e madri che cercano di proteggerli. Ci sono anche angeli che guardano.	n	na	n	y	n	n	n	na
+A2	122	Dipinto di Gesù risorto che incontra sua madre Maria e altri santi. In alto ci sono angeli che suonano.	n	na	n	y	n	n	n	na
+A2	123	Dipinto di Gesù che appare a una donna dopo essere uscito dalla tomba. C'è un albero e si vede il cielo.	n	na	n	y	n	n	n	na
+A2	124	Dipinto di Maria con Gesù bambino, Giuseppe e i tre Re Magi che portano doni.	n	na	n	y	n	n	n	na
+A2	125	Dipinto di un vescovo con cappello speciale che legge un libro.	n	na	n	y	n	n	n	na
+A2	126	Dipinto di un santo con veste marrone che guarda un crocifisso.	n	na	n	y	n	n	n	na
+A2	127	Statua dorata di un santo che scrive, con un leone vicino.	n	na	n	y	n	n	n	na
+A2	128	Statua dorata di un santo giovane con un libro e un'aquila.	n	na	n	y	n	n	n	na
+A2	129	Statua dorata di un santo con una spada.	n	na	n	y	n	n	n	na
+A2	130	Statua dorata di Gesù con un agnello ai suoi piedi.	n	na	n	y	n	n	n	na
+A2	131	Statua dorata di un santo con delle pietre in mano.	n	na	n	y	n	n	n	na
+A2	132	Statua dorata di un santo senza niente in mano.	n	na	n	y	n	n	n	na
+A2	133	Bastone per l'acqua santa decorato con foglie.	n	na	n	y	y	n	n	na
+A2	134	Contenitore per l'incenso decorato con foglie e teste di angeli.	n	na	n	y	n	n	n	na
+A2	135	Piccolo contenitore decorato con foglie e una conchiglia.	n	na	n	y	n	n	n	na
+A2	136	Brocca decorata con foglie.	n	na	n	y	n	n	n	na
+A2	137	Veste da prete decorata con oro e verde.	n	na	n	y	n	n	n	na
+A2	138	Mantello verde con fiori ricamati.	n	na	n	y	y	n	n	na
+A2	139	Stoffa rossa con fiori e foglie ricamati in oro.	n	na	n	y	n	n	n	na
+A2	140	Stoffa rosa con disegni geometrici e fiori.	n	na	n	y	n	n	n	na
+A2	141	Veste da prete viola con decorazioni dorate e argentate.	n	na	n	y	n	n	n	na
+A2	142	Stoffa bianca con fiori colorati e decorazioni dorate.	n	na	n	y	n	n	n	na
+A2	143	Stoffa gialla lucida con bordi argentati.	n	na	n	y	n	n	n	na
+A2	144	Stoffa rossa lucida con bordi dorati.	n	na	n	y	n	n	n	na
+A2	145	Stoffa viola con disegni di fiori e vasi.	n	na	n	y	n	n	n	na
+A2	146	Stoffa rossa con disegni di fiori e ramoscelli.	n	na	n	y	n	n	n	na
+A2	147	Stoffa bianca con ricami colorati di fiori e frutti.	n	na	n	y	n	n	n	na
+A2	148	Stoffa bianca con ricami colorati di fiori e frutti.	n	na	n	y	n	n	n	na
+A2	149	Velo viola chiaro con ricami argentati.	n	na	n	y	n	n	n	na
+A2	150	Borsa viola chiaro con ricami argentati.	n	na	n	y	n	n	n	na
+A2	151	Stola bianca con ricami dorati.	y	n	n	y	n	n	n	na
+A2	152	Veste da prete bianca con ricami colorati di fiori e frutti.	n	na	n	y	n	n	n	na
+A2	153	Veste da prete viola con ricami argentati di fiori e foglie.	n	na	n	y	n	n	n	na
+A2	154	Quattro immagini degli evangelisti.	n	na	n	y	y	n	n	na
+A2	155	Dipinto della nascita di Maria.	n	na	n	y	y	n	n	na
+A2	156	Dipinto della Madonna portata in cielo dagli angeli.	n	na	n	y	n	n	n	na
+A2	157	Dipinto della Trinità con santi e figure simboliche.	y	n	n	y	y	n	n	na
+A2	158	Dipinto della nascita di Maria.	n	na	n	y	y	n	n	na
+A2	159	Dipinto della Pentecoste.	y	n	n	y	y	n	n	na
+A2	160	Dipinto di Gesù trascinato dai soldati, con un cane che abbaia.	n	na	n	y	n	n	n	na
+A2	161	Dipinto di Gesù seduto, spogliato e gli danno da bere.	n	na	n	y	n	n	n	na
+A2	162	Dipinto di Gesù inchiodato alla croce, con Maria che guarda.	n	na	n	y	n	n	n	na
+A2	163	Dipinto di Gesù morto in braccio a Maria, con Giovanni e Maddalena.	n	na	n	y	n	n	n	na
+A2	164	Dipinto di Gesù morto messo nel sepolcro, con donne che guardano.	n	na	n	y	n	n	n	na
+A2	165	Dipinto di Gesù che riceve la croce.	n	na	n	y	n	n	n	na
+A2	166	Dipinto di Gesù che cade sotto la croce, con soldati intorno.	n	na	n	y	n	n	n	na
+A2	167	Dipinto di Gesù che incontra Maria mentre porta la croce.	n	na	n	y	n	n	n	na
+A2	168	Dipinto di Gesù aiutato da Simone a portare la croce.	n	na	n	y	n	n	n	na
+A2	169	Dipinto di Gesù che incontra Veronica con il suo velo.	n	na	n	y	n	n	n	na
+A2	170	Dipinto di Gesù che cade sotto la croce, con soldati intorno.	n	na	n	y	n	n	n	na
+A2	171	Dipinto di Gesù che consola donne che piangono, con un bambino.	n	na	n	y	n	n	n	na
+A2	172	Dipinto di Gesù che cade sotto la croce, con soldati intorno.	n	na	n	y	n	n	n	na
+A2	173	Statua di un angelo che tiene per mano un bambino e indica il cielo.	n	na	n	y	n	n	n	na
+A2	174	Statua dell'arcangelo Michele con armatura che pesa le anime.	n	na	n	y	n	n	y	n 
+A2	175	15 dipinti dei misteri del Rosario intorno a una nicchia.	y	n	n	y	n	n	y	n 
+A2	176	Dipinto di Gesù circondato da luce e angeli.	n	na	n	y	n	n	n	na
+A2	177	Due pannelli con cornici decorate con piante.	y	n	n	y	n	n	n	na
+A2	178	Dipinto del primo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	179	Dipinto del decimo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	180	Dipinto del tredicesimo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	181	Dipinto del quattordicesimo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	182	Dipinto del quindicesimo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	183	Dipinto del secondo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	184	Dipinto del quarto mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	185	Dipinto del sesto mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	186	Dipinto dell'ottavo mistero del Rosario.	n	na	n	y	y	n	y	n 
+A2	187	Dipinto della nascita di Maria.	n	na	n	y	y	n	n	na
+A2	188	Dipinto dell'angelo che annuncia a Maria che avrà Gesù.	n	na	n	y	n	n	n	na
+A2	189	Dipinto di Gesù presentato al tempio.	n	na	n	y	n	n	n	na
+A2	190	Decorazione con San Barnaba.	n	na	n	y	y	n	n	na
+A2	191	Decorazione con San Baudolino.	n	na	n	y	y	n	n	na
+A2	192	Dipinto di San Gregorio che dà l'elemosina ai poveri.	n	na	n	y	n	n	n	na
+A2	193	Dipinto di San Gregorio portato in cielo dagli angeli.	n	na	n	y	n	n	n	na
+A2	194	Immagine di San Giovanni con un'aquila.	n	na	n	y	y	n	n	na
+A2	195	Dipinto di Giacobbe che sogna una scala con angeli.	n	na	n	y	n	n	n	na
+A2	196	Dipinto di Giobbe sofferente.	n	na	n	y	n	n	n	na
+A2	197	Dipinto di Giuditta che taglia la testa a Oloferne.	n	na	n	y	n	n	n	na
+A2	198	Dipinto di Mosè che riceve i Dieci Comandamenti.	n	na	n	y	n	n	y	n 
+A2	199	Dipinto della Carità come donna che allatta un bambino.	n	na	n	y	n	n	y	n 
+A2	200	Sedile di legno con decorazioni intagliate.	y	n	n	y	n	n	n	na
